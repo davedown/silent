@@ -60,7 +60,7 @@ local PredictionAmount = 0.165
 local mouse_box = Drawing.new("Square")
 mouse_box.Visible = true 
 mouse_box.ZIndex = 999 
-mouse_box.Color = Color3.fromRGB(54, 57, 241)
+mouse_box.Color = Color3.fromRGB(220,20,60)
 mouse_box.Thickness = 20 
 mouse_box.Size = Vector2.new(20, 20)
 mouse_box.Filled = true 
@@ -73,7 +73,7 @@ fov_circle.Filled = false
 fov_circle.Visible = false
 fov_circle.ZIndex = 999
 fov_circle.Transparency = 1
-fov_circle.Color = Color3.fromRGB(54, 57, 241)
+fov_circle.Color = Color3.fromRGB(220,20,60)
  
 local ExpectedArguments = {
     FindPartOnRayWithIgnoreList = {
@@ -240,7 +240,7 @@ end
  
 -- ui creating & handling
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/Library.lua"))()
-Library:SetWatermark("github.com/Averiias")
+Library:SetWatermark("github.com/davedown")
  
 local Window = Library:CreateWindow("Universal Silent Aim, by dave_down")
 local GeneralTab = Window:AddTab("General")
